@@ -35,7 +35,7 @@ You can also install from the command line, with the **cbdocloader** tool, repla
  /opt/couchbase/bin/cbdocloader -n localhost:8091 -u Administrator -p Pass -b travel-sample -s 100 /opt/couchbase/samples/travel-sample.zip 
 ```
 
-Note, that this tutorial relies on Couchbase's new FTS feature, which must be enabled at installation time (unless you've installed the 5.0 Beta). If you've already installed a local version (rather than downloaded a Docker instance), and not checked the FTS option during install, you'll need to re-install. Check the FTS box as in the Step 1 screenshot above, and then check the travel-sample bucket in Step 2. Use [cbbackup](https://developer.couchbase.com/documentation/server/current/cli/backup-cbbackup.html) to save data first, if you've got so far as to have made changes, then restore data after re-install.
+Note, that this tutorial relies on Couchbase's new FTS feature, which must be enabled at installation time (unless you've installed the 5.0 Beta). If you've already installed a local version (rather than downloaded a Docker instance), and not checked the FTS option during install, you'll need to re-install. Check the **Full Text** box as in the Step 1 screenshot above, and then check the **travel-sample** bucket in Step 2. Use [cbbackup](https://developer.couchbase.com/documentation/server/current/cli/backup-cbbackup.html) to save data first, if you've got so far as to have made changes, then restore data after re-install.
 
 Now, in order to be able to search for hotels, an FTS index called `hotels` must be created from the travel-sample bucket. Go to **Indexes > Full Text > New Full Text Index** and create the hotels index:
 
