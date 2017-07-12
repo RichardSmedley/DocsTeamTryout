@@ -83,13 +83,13 @@ Select one or more flights to add to your cart by clicking the **Choose** button
 
 Now you have flights stored locally in your cart. Go to the **Cart** page and review your flights:
 
-1. Click on the "cart" icon button in the navigation bar, top right
+1. Click on the "cart" icon button in the navigation bar, top right.
 2. See that the number of flights in the cart and the total cost are displayed in that navigation bar.
 3. Review the flights in your cart, and book one by clicking on the **Book** button next to it.
 
 ![](assets/travel-app-screen-cart.png)
 
-4. The flight is now booked, as confirmed by a message on the page
+4. The flight is now booked, as confirmed by a message on the page.
 
 The flights that you've booked are stored in the backend. You can see which flights you've booked by navigating to the "user" page ("head and shoulders" icon). The backend uses authentication to control access to the endpoints for booking and listing flights.
 
@@ -122,7 +122,7 @@ cbq> SELECT airportname FROM `travel-sample` WHERE airportname IS NOT NULL LIMIT
 You can use the Web Console to view, edit, and create JSON documents up to 2.5KiB in size. To access documents using the Web Console:
 
 1. Navigate your browser to a cluster node. Type the address of the cluster with the admin port (8091). Use your username (usually Administrator). The password is the password you used when setting up the cluster.
-2. Once logged in, go to the **Data Buckets** section
+2. Once logged in, go to the **Data Buckets** section.
 
 	![](assets/webui-buckets.png)
 
@@ -144,7 +144,7 @@ You can use the Web Console to view, edit, and create JSON documents up to 2.5Ki
 
 	![](assets/webui-newdoc-prompt.png)
 
-7. Once created, you can now edit your document. Don't forget to **Save** when done
+7. Once created, you can now edit your document. Don't forget to **Save** when done.
 
 	![](assets/webui-editor-new.png)
 
