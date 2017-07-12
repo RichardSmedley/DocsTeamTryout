@@ -29,7 +29,7 @@ Make sure also to install the sample bucket named `travel-sample` which contains
 
 If you already have Couchbase Server 4.5 or later installed but did not install the `travel-sample` bucket (or you installed it from a 4.0 version), open the Couchbase Web Console and select **Settings > Sample Buckets**. Select the **travel-sample** checkbox, and then click **Create**. A notification box in the upper-right corner disappears when the bucket is ready to use.
 
-you can also install from the command line, with the **cbdocloader** tool, replacing `/opt/couchbase/bin/cbdocloader` with `/Applications/Couchbase Server.app/Contents/Resources/couchbase-core/bin/cbdocloader` on MacOS-X:
+You can also install from the command line, with the **cbdocloader** tool, replacing `/opt/couchbase/bin/cbdocloader` with `/Applications/Couchbase Server.app/Contents/Resources/couchbase-core/bin/cbdocloader` on MacOS-X:
 
 ```bash
  /opt/couchbase/bin/cbdocloader -n localhost:8091 -u Administrator -p Pass -b travel-sample -s 100 /opt/couchbase/samples/travel-sample.zip 
